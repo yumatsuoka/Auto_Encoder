@@ -3,9 +3,9 @@
 # Name:        AutoEncoder_multi
 # Author:      Yuma Matsuoka
 # Created:     2015/12/22
-#mnistデータセットを次元圧縮するオートエンコーダーを作成する
-#sparse autoencoderやdenoising autoencoderへの拡張性を持たせる
-#中間層や入力出力データを画像として可視化して学習できているかどうかを確認する
+#mnistデータセットを次元圧縮するオートエンコーダーを作成した。
+#sparse autoencoderやdenoising autoencoderへの拡張性を持たせた。
+#中間層や入力出力データを画像として可視化して学習できているかどうかを確認した。
 #-------------------------------------------------------------------------------
 
 import time, math
@@ -158,8 +158,8 @@ def main():
     randMax     = 0.3
     randMin     = -0.3
     batch       = 100       #バッチサイズ
-    epoch       = 10000        #エポック
-    train_num   = 60000     #学習に使用する数,データセットは70000サンプル
+    epoch       = 1000        #エポック
+    train_num   = 6000     #学習に使用するサンプル数,データセット全体は70000サンプル
     noise_ratio = 0.3       #雑音付与の割合
     drop_alpha  = 10      #学習係数を下げる頻度(drop_alphaエポック回ると下げる)
 
