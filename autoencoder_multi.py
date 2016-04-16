@@ -8,6 +8,10 @@
 #中間層や入力出力データを画像として可視化して学習できているかどうかを確認した。
 #-------------------------------------------------------------------------------
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 import time, math
 import numpy as np
 import pylab as plt
