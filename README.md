@@ -4,7 +4,7 @@ That's because I wanna know auto encoder actually shrinks data from datasets in 
 I also implemented nomal 'auto encoder', 'sparse auto encoder' and 'denoising auto encoder' with MNIST dataset.  
 
 The result on the experiments is summarized in the following slide.  
-` http://www.slideshare.net/YumaMatsuoka/auto-encoder ` 
+http://www.slideshare.net/YumaMatsuoka/auto-encoder
 
 ## Requirements
 - Python 3.x (checked Python 3.4.3)  
